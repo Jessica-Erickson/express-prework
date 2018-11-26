@@ -1,0 +1,13 @@
+{
+  "name": "Jessica",
+  "specialty": "Being awesome.",
+  "favorite things": ["red pandas", "Tyler", "fennel", "parsnips", "javascript", "board games"],
+  "character sheet": {
+    "Strength": 7,
+    "Dexterity": 9,
+    "Constitution": 12,
+    "Intelligence": 16,
+    "Wisdom": 20,
+    "Charisma": 11
+  }
+}

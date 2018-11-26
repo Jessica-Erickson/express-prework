@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const jsonData = require('./data.json');
 
 const urlLogger = (request, response, next) => {
   console.log('Request URL:', request.url);
@@ -21,7 +22,7 @@ app.get('/', (request, response) => {
 });
 
 app.get('/json', (request, response) => {
-  response.status(200).json({"name": "Robbie"});
+  response.status(200).json(jsonData);
 });
 
 app.listen(3000, () => {
