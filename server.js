@@ -28,3 +28,7 @@ app.get('/json', (request, response) => {
 app.listen(3000, () => {
   console.log('Express intro running on localhost:3000');
 });
+
+app.use(function (req, res, next) {
+  res.status(404).send("The page you are looking for doesn't exist :(");
+})
